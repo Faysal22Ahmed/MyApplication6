@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:shrinkColumns="0"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:id="@+id/RowId"
+        android:layout_marginTop="20dp"
+        android:background="#038F07"
+
+
+
+        >
+        <TextView
+
+
+            android:text="Student Details"
+            android:textStyle="bold"
+
+            android:textColor="#F01404"
+            android:textSize="20sp"
+
+
+
+            />
+
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/row1Id"
+        android:background="#8BC34A"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+
+
+
+
+
+        >
+        <TextView
+
+        android:text="Name"
+        android:textSize="15sp"
+        android:textStyle="bold"
+            android:layout_span="1"
+
+
+
+        />
+        <TextView
+            android:text="ID"
+            android:textSize="15sp"
+            android:textStyle="bold"
+
+            android:layout_marginRight="10dp"
+            android:layout_span="1"
+
+            />
+        <TextView
+            android:text="Mobile No."
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10dp"
+            android:layout_span="1"
+
+            />
+        <TextView
+            android:text="Section"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_span="1"
+
+
+
+            />
+
+
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row2Id"
+        android:background="#B8E48C"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+
+
+
+        >
+        <TextView
+            android:text="Faysal"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_span="1"
+
+            />
+        <TextView
+            android:text="137"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="-5dp"
+            android:layout_span="1"
+
+
+            />
+        <TextView
+            android:text="0151XXXXX"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10dp"
+            android:layout_span="1"
+
+            />
+        <TextView
+            android:text="C"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_span="1"
+
+            />
+
+
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row3Id"
+        android:background="#B8E48C"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+
+
+
+        >
+        <TextView
+            android:text="Sahid"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_span="1"
+
+            />
+        <TextView
+            android:text="111"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="-5dp"
+            android:layout_span="1"
+
+
+            />
+        <TextView
+            android:text="0131XXXXX"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10dp"
+            android:layout_span="1"
+
+            />
+        <TextView
+            android:text="C"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_span="1"
+
+            />
+
+
+
+    </TableRow>
+
+
+
+
+</TableLayout>
